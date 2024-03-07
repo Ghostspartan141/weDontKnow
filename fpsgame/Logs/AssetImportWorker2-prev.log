@@ -15,7 +15,7 @@ C:/Users/Lab Folders/Desktop/weDontKnow/fpsgame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57314
+62646
 Successfully changed project path to: C:/Users/Lab Folders/Desktop/weDontKnow/fpsgame
 C:/Users/Lab Folders/Desktop/weDontKnow/fpsgame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Lab Folders/Desktop/weDontKnow/fpsgame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12860] Host "[IP] 10.69.14.151 [Port] 0 [Flags] 2 [Guid] 3910641031 [EditorId] 3910641031 [Version] 1048832 [Id] WindowsEditor(7,OCB10603) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15296] Host "[IP] 10.69.14.151 [Port] 0 [Flags] 2 [Guid] 2125197430 [EditorId] 2125197430 [Version] 1048832 [Id] WindowsEditor(7,OCB10603) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12860] Host "[IP] 10.69.14.151 [Port] 0 [Flags] 2 [Guid] 3910641031 [EditorId] 3910641031 [Version] 1048832 [Id] WindowsEditor(7,OCB10603) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15296] Host "[IP] 10.69.14.151 [Port] 0 [Flags] 2 [Guid] 2125197430 [EditorId] 2125197430 [Version] 1048832 [Id] WindowsEditor(7,OCB10603) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 110.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -76,7 +76,7 @@ Register platform support module: C:/Program Files/Unity 2021.3.21f1/Editor/Data
 Register platform support module: C:/Program Files/Unity 2021.3.21f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004932 seconds.
+Registered in 0.005286 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -101,41 +101,41 @@ UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.Us
 UnityEditor.Android.TargetExtension:OnLoad ()
 UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
 
-Android Extension - Scanning For ADB Devices 725 ms
+Android Extension - Scanning For ADB Devices 614 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
+- Completed reload, in  1.231 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1367ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1213ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (1079ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (1048ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (918ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (815ms)
+				InitializePlatformSupportModulesInManaged (701ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006919 seconds.
+Registered in 0.007016 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lab Folders\Desktop\weDontKnow\fpsgame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Lab Folders\Desktop\weDontKnow\fpsgame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -145,46 +145,46 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
+- Completed reload, in  1.228 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1076ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (877ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (438ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (538ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4362 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (104.8 KB). Loaded Objects now: 4820.
-Memory consumption went from 162.4 MB to 162.3 MB.
-Total: 11.305100 ms (FindLiveObjects: 0.471300 ms CreateObjectMapping: 0.248800 ms MarkObjects: 10.427800 ms  DeleteObjects: 0.155900 ms)
+Unloading 59 unused Assets / (97.3 KB). Loaded Objects now: 4822.
+Memory consumption went from 162.5 MB to 162.4 MB.
+Total: 8.260600 ms (FindLiveObjects: 0.447700 ms CreateObjectMapping: 0.387700 ms MarkObjects: 7.248400 ms  DeleteObjects: 0.175900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,67 +199,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 91338.019598 seconds.
-  path: Assets/cole's prefabs/Lamp_02.prefab
-  artifactKey: Guid(5177c2a1f8d9ce549b9c0e7c2d92f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cole's prefabs/Lamp_02.prefab using Guid(5177c2a1f8d9ce549b9c0e7c2d92f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392d13dd1d401bb5af7b039d85f7dd66') in 0.160980 seconds 
+  Time since last request: 95136.002539 seconds.
+  path: Assets/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer
+  artifactKey: Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer using Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9fdf1a36f0bb57f656175373baec8') in 0.096585 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.112703 seconds.
-  path: Assets/cole's prefabs/log.prefab
-  artifactKey: Guid(8abf1f916c63f644682f8d4753538bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cole's prefabs/log.prefab using Guid(8abf1f916c63f644682f8d4753538bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68184aa74b0c1ba519502ef860ca60b1') in 0.019474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 225.090753 seconds.
-  path: Assets/cole's prefabs/sign.prefab
-  artifactKey: Guid(50270035910f0324b869c3fa40093185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cole's prefabs/sign.prefab using Guid(50270035910f0324b869c3fa40093185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e408ff57910556b1c213547279dd1b3a') in 0.003302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.387258 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx
-  artifactKey: Guid(699d9f0463b3804428644296838e3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx using Guid(699d9f0463b3804428644296838e3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5692c8fa2c52a614610a20a0eed9f981') in 0.042501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TerrainSampleAssets/Models/BushDry_A.asset
-  artifactKey: Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Models/BushDry_A.asset using Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a60cfb6dd3710cedcd6d27a6b5d3ac1') in 0.014377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_02.fbx
-  artifactKey: Guid(65c60ec06b0707e4f97e1ebf1474a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_02.fbx using Guid(65c60ec06b0707e4f97e1ebf1474a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf77419e576b7ccfbcd6c5967deeb21') in 0.018346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TerrainSampleAssets/Models/Bush_B.asset
-  artifactKey: Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Models/Bush_B.asset using Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d64d1184c8f6a669de12eabaffecf75') in 0.009962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TerrainSampleAssets/Models/BushDry_B.asset
-  artifactKey: Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Models/BushDry_B.asset using Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc37583bd32bc3c0ffd99c2619a9083') in 0.010159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx
-  artifactKey: Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx using Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd3dd0383995618bb6a5d20816bb6cf') in 0.016791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
-  artifactKey: Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx using Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2851c2bd364508decd4e4e4325439d46') in 0.029124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.782779 seconds.
-  path: Assets/cole's materials/stone.mat
-  artifactKey: Guid(a4cc3c9b6a65b6247b40d177c3c50f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cole's materials/stone.mat using Guid(a4cc3c9b6a65b6247b40d177c3c50f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46ccba455b6e38459b3aa8ea40f2ca1') in 0.034528 seconds 
+  Time since last request: 47.513545 seconds.
+  path: Assets/TerrainSampleAssets/TerrainLayers/Muddy_TerrainLayer.terrainlayer
+  artifactKey: Guid(091511b8c4f042c4082a4d5af73e92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainLayers/Muddy_TerrainLayer.terrainlayer using Guid(091511b8c4f042c4082a4d5af73e92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ae84145f5e038ab464e646c6dfc834') in 0.020830 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
