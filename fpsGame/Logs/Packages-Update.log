@@ -1,10 +1,14 @@
 
-=== Mon Feb 26 23:54:09 2024
+=== Wed Feb 28 10:10:21 2024
 
 Packages were changed.
-Update Mode: mergeDefaultDependencies
+Update Mode: updateDependencies
 
 The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@4.4.1
+  com.unity.analytics@3.6.12
   com.unity.ide.rider@3.0.18
   com.unity.ide.visualstudio@2.0.17
   com.unity.ide.vscode@1.2.5
@@ -39,7 +43,9 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
+  com.unity.purchasing@4.6.0
   com.unity.test-framework@1.1.31
+  com.unity.xr.legacyinputhelpers@2.1.10
 The following packages were updated:
   com.unity.collab-proxy from version 1.13.5 to 2.0.1
   com.unity.timeline from version 1.6.2 to 1.6.4
