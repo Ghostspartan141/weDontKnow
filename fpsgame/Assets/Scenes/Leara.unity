@@ -134872,10 +134872,14 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.89663553, z: -0, w: 0.4427694}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 464.33, y: 0.000007867813, z: 474.4}
 =======
   m_LocalPosition: {x: 464.23, y: 0.000007867813, z: 474.47}
 >>>>>>> c6185eb3c9a786f39b12a9f2e894697b1a7acec8
+=======
+  m_LocalPosition: {x: 464.29, y: 0.000007867813, z: 474.4}
+>>>>>>> parent of c6185eb3 (adjustments)
 =======
   m_LocalPosition: {x: 464.29, y: 0.000007867813, z: 474.4}
 >>>>>>> parent of c6185eb3 (adjustments)
