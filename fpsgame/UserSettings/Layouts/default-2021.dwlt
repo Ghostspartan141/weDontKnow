@@ -14,38 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 8
-    y: 51
-    width: 1904
-    height: 981
-=======
-    x: 465
-    y: 142
-    width: 1206
-    height: 715
->>>>>>> Stashed changes
-  m_ShowMode: 4
-  m_Title: Hierarchy
-=======
     x: 0
     y: 43
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
+  m_Title: Inspector
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -65,42 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 1904
-    height: 931
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 39
-=======
-    width: 1206
-    height: 665
-  m_MinSize: {x: 503, y: 321}
-  m_MaxSize: {x: 16192, y: 12117}
-  vertical: 0
-  controlID: 43
->>>>>>> Stashed changes
-=======
     width: 1920
     height: 947
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 90
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 503, y: 321}
-  m_MaxSize: {x: 16192, y: 12117}
-  vertical: 0
-  controlID: 90
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,34 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 1454
-    y: 0
-    width: 450
-    height: 931
-=======
-    x: 921
-    y: 0
-    width: 285
-    height: 665
->>>>>>> Stashed changes
-=======
     x: 1466
     y: 0
     width: 454
     height: 947
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    x: 1466
-    y: 0
-    width: 454
-    height: 947
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -168,28 +92,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 360
-    height: 551
-=======
-    width: 228
-    height: 394
->>>>>>> Stashed changes
-=======
     width: 363
     height: 561
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 363
-    height: 561
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 363
-    height: 561
->>>>>>> parent of e4322670 (fireflies)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -207,44 +111,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    y: 551
-    width: 1454
-    height: 380
-=======
     y: 561
     width: 1466
     height: 386
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    y: 561
-    width: 1466
-    height: 386
->>>>>>> parent of c6185eb3 (adjustments)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
-=======
-    y: 394
-    width: 921
-    height: 271
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
->>>>>>> Stashed changes
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,24 +148,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 1904
-    height: 981
-=======
-    width: 1206
-    height: 715
->>>>>>> Stashed changes
-=======
     width: 1920
     height: 997
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 1920
-    height: 997
->>>>>>> parent of c6185eb3 (adjustments)
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -305,19 +173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 1904
-=======
-    width: 1206
->>>>>>> Stashed changes
-=======
     width: 1920
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 1920
->>>>>>> parent of c6185eb3 (adjustments)
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -338,23 +194,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    y: 961
-    width: 1904
-=======
-    y: 695
-    width: 1206
->>>>>>> Stashed changes
-=======
     y: 977
     width: 1920
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    y: 977
-    width: 1920
->>>>>>> parent of c6185eb3 (adjustments)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -377,42 +218,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 1454
-    height: 931
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 94
-=======
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 321}
-  m_MaxSize: {x: 8096, y: 12117}
-  vertical: 1
-  controlID: 44
->>>>>>> Stashed changes
-=======
     width: 1466
     height: 947
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 91
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 1466
-    height: 947
-  m_MinSize: {x: 403, y: 321}
-  m_MaxSize: {x: 8096, y: 12117}
-  vertical: 1
-  controlID: 91
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -432,42 +243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    width: 1454
-    height: 551
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 95
-=======
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 45
->>>>>>> Stashed changes
-=======
     width: 1466
     height: 561
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 92
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    width: 1466
-    height: 561
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 92
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -478,61 +259,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Name: 
-=======
-  m_Name: GameView
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  m_Name: GameView
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  m_Name: GameView
->>>>>>> parent of e4322670 (fireflies)
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 360
-    y: 0
-    width: 1094
-    height: 551
-=======
-    x: 228
-    y: 0
-    width: 693
-    height: 394
->>>>>>> Stashed changes
-=======
-    x: 363
-    y: 0
-=======
-    x: 363
-    y: 0
->>>>>>> parent of e4322670 (fireflies)
-    width: 1103
-    height: 561
->>>>>>> parent of c6185eb3 (adjustments)
-=======
     x: 363
     y: 0
     width: 1103
     height: 561
->>>>>>> parent of c6185eb3 (adjustments)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -553,27 +296,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 8
-    y: 632
-    width: 1453
-    height: 359
-=======
-    x: 465
-    y: 566
-    width: 920
-    height: 250
->>>>>>> Stashed changes
-=======
     x: 0
     y: 634
     width: 1465
     height: 365
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -592,79 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    - Assets
-=======
-    - Assets/FantasyEnvironments/Environments
->>>>>>> Stashed changes
-=======
-    - Assets
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    - Assets
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    - Assets
->>>>>>> parent of e4322670 (fireflies)
+    - Assets/cole's prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-  - Assets
-=======
-  - Assets/FantasyEnvironments/Environments
->>>>>>> Stashed changes
-=======
-  - Assets
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  - Assets
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  - Assets
->>>>>>> parent of e4322670 (fireflies)
+  - Assets/cole's prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Owner\Desktop\weDontKnow\fpsgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: c0a10000
-    m_LastClickedID: 41408
-    m_ExpandedIDs: 00000000c0a1000000ca9a3b
-=======
-    scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: 28630000
-    m_LastClickedID: 25384
-    m_ExpandedIDs: 0000000040620000
->>>>>>> Stashed changes
-=======
-    m_SelectedIDs: 48620000
-    m_LastClickedID: 25160
-    m_ExpandedIDs: 000000004862000000ca9a3b
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    m_SelectedIDs: 48620000
-    m_LastClickedID: 25160
-    m_ExpandedIDs: 000000004862000000ca9a3b
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    m_SelectedIDs: 48620000
-    m_LastClickedID: 25160
-    m_ExpandedIDs: 000000004862000000ca9a3b
->>>>>>> parent of e4322670 (fireflies)
+    m_SelectedIDs: bea10000
+    m_LastClickedID: 41406
+    m_ExpandedIDs: 00000000b8a1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000040620000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -717,21 +386,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: 28630000
-    m_LastClickedInstanceID: 25384
-    m_HadKeyboardFocusLastEvent: 1
-=======
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -780,30 +437,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 1462
-    y: 81
-    width: 449
-    height: 910
-=======
-    x: 1386
-    y: 172
-    width: 284
-    height: 644
->>>>>>> Stashed changes
-=======
-=======
->>>>>>> parent of c6185eb3 (adjustments)
     x: 1466
     y: 73
     width: 453
     height: 926
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -842,27 +479,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 8
-    y: 81
-    width: 359
-    height: 530
-=======
-    x: 465
-    y: 172
-    width: 227
-    height: 373
->>>>>>> Stashed changes
-=======
     x: 0
     y: 73
     width: 362
     height: 540
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -871,57 +491,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      m_SelectedIDs: f0bbffff
-      m_LastClickedID: -17424
-      m_ExpandedIDs: 4cbcffff8cbdffff
-=======
-      m_SelectedIDs: 2cfbffff
-      m_LastClickedID: -1236
-      m_ExpandedIDs: 2cfbffff
->>>>>>> Stashed changes
-=======
-      m_SelectedIDs: dcebffff
-      m_LastClickedID: -5156
-      m_ExpandedIDs: e6ebffffe0f9ffff2cfbffff
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-      m_SelectedIDs: dcebffff
-      m_LastClickedID: -5156
-      m_ExpandedIDs: e6ebffffe0f9ffff2cfbffff
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-      m_SelectedIDs: dcebffff
-      m_LastClickedID: -5156
-      m_ExpandedIDs: e6ebffffe0f9ffff2cfbffff
->>>>>>> parent of e4322670 (fireflies)
+      m_SelectedIDs: 3cbaffff
+      m_LastClickedID: -17860
+      m_ExpandedIDs: 98baffff40bcffff8ebdffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Terrain
-        m_OriginalName: Terrain
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -17424
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-        m_ClientGUIView: {fileID: 4}
-=======
         m_ClientGUIView: {fileID: 0}
->>>>>>> Stashed changes
-=======
-        m_ClientGUIView: {fileID: 4}
->>>>>>> parent of e4322670 (fireflies)
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -949,33 +537,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    x: 368
-    y: 81
-    width: 1092
-    height: 530
-=======
-    x: 693
-    y: 172
-    width: 691
-    height: 373
->>>>>>> Stashed changes
-=======
-=======
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
     x: 363
     y: 73
     width: 1101
     height: 540
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1226,28 +791,16 @@ MonoBehaviour:
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    m_Target: {x: 287.9138, y: -58.689327, z: 332.0056}
+    m_Target: {x: -182.42316, y: -168.25702, z: 264.4267}
     speed: 2
-    m_Value: {x: 287.9138, y: -58.689327, z: 332.0056}
-=======
-    m_Target: {x: -36.90349, y: -6.89357, z: 147.63716}
-    speed: 2
-    m_Value: {x: -36.90349, y: -6.89357, z: 147.63716}
->>>>>>> Stashed changes
-=======
-    m_Target: {x: 464.24844, y: -0.93797207, z: 473.3248}
-    speed: 2
-    m_Value: {x: 464.24844, y: -0.93797207, z: 473.3248}
->>>>>>> parent of e4322670 (fireflies)
+    m_Value: {x: -182.42316, y: -168.25702, z: 264.4267}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1294,45 +847,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    m_Target: {x: 0.059268408, y: -0.90165514, z: 0.1310283, w: 0.4078472}
+    m_Target: {x: -0.14957872, y: 0.7817002, z: -0.2052809, w: -0.56958884}
     speed: 2
-    m_Value: {x: 0.059071727, y: -0.90226483, z: 0.1311169, w: 0.40649378}
+    m_Value: {x: -0.14988641, y: 0.7808446, z: -0.20505624, w: -0.57076055}
   m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 139.62227
+    m_Target: 458.38712
     speed: 2
-    m_Value: 133.60983
-=======
-    m_Target: {x: 0.19749488, y: -0.5923251, z: 0.15270162, w: 0.76605874}
-    speed: 2
-    m_Value: {x: -0.19749486, y: 0.5923251, z: -0.1527016, w: -0.76605874}
-  m_Size:
-    m_Target: 1882.9492
-    speed: 2
-    m_Value: 1882.9492
->>>>>>> Stashed changes
-=======
-    m_Target: 3.1897488
-    speed: 2
-    m_Value: 3.1897488
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    m_Target: 3.1897488
-    speed: 2
-    m_Value: 3.1897488
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-    m_Target: {x: -0.1480928, y: 0.83867276, z: -0.28054592, w: -0.44271675}
-    speed: 2
-    m_Value: {x: -0.14809224, y: 0.83866954, z: -0.28054485, w: -0.44271505}
-  m_Size:
-    m_Target: 3.1897488
-    speed: 2
-    m_Value: 3.1897488
->>>>>>> parent of e4322670 (fireflies)
+    m_Value: 479.9865
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1377,26 +898,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
     height: 790
-=======
-=======
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
-    x: 363
-    y: 73
-    width: 1101
-    height: 540
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1408,19 +913,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_TargetSize: {x: 1532, y: 769}
-=======
-  m_TargetSize: {x: 1101, y: 519}
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  m_TargetSize: {x: 1101, y: 519}
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-  m_TargetSize: {x: 1101, y: 519}
->>>>>>> parent of e4322670 (fireflies)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 0
@@ -1435,26 +928,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -384.5
     m_VBaseRangeMax: 384.5
-=======
-=======
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
-    m_HBaseRangeMin: -550.5
-    m_HBaseRangeMax: 550.5
-    m_VBaseRangeMin: -259.5
-    m_VBaseRangeMax: 259.5
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of c6185eb3 (adjustments)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1472,39 +949,16 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       width: 1532
       height: 769
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 766, y: 384.5}
-=======
-=======
->>>>>>> parent of e4322670 (fireflies)
-      width: 1101
-      height: 519
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 259.5}
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-      width: 1101
-      height: 519
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 259.5}
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       x: -766
       y: -384.5
       width: 1532
@@ -1512,29 +966,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
-=======
-=======
->>>>>>> parent of e4322670 (fireflies)
-      x: -550.5
-      y: -259.5
-      width: 1101
-      height: 519
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1101, y: 540}
-<<<<<<< HEAD
->>>>>>> parent of c6185eb3 (adjustments)
-=======
-      x: -550.5
-      y: -259.5
-      width: 1101
-      height: 519
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1101, y: 540}
->>>>>>> parent of c6185eb3 (adjustments)
-=======
->>>>>>> parent of e4322670 (fireflies)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1560,10 +991,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 465
-    y: 566
-    width: 920
-    height: 250
+    x: 0
+    y: 634
+    width: 1465
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
