@@ -7,6 +7,9 @@ TagManager:
   - eplodecrate
   - stuncrate
   - eletriccrate
+  - sheildpickup
+  - healthkit
+  - sword crate
   layers:
   - Default
   - TransparentFX
