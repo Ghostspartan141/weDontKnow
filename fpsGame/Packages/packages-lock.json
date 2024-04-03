@@ -13,11 +13,7 @@
       "dependencies": {}
     },
     "com.unity.ads": {
-<<<<<<< HEAD
       "version": "4.4.1",
-=======
-      "version": "4.4.2",
->>>>>>> bobby
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -26,24 +22,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.analytics": {
-<<<<<<< HEAD
       "version": "3.6.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-=======
-      "version": "3.8.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.services.analytics": "1.0.4",
->>>>>>> bobby
         "com.unity.ugui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.2.0",
+      "version": "2.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -78,7 +66,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.26",
+      "version": "3.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -87,7 +75,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
+      "version": "2.0.17",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -116,7 +104,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
     "com.unity.probuilder": {
       "version": "5.0.7",
       "depth": 0,
@@ -130,10 +117,6 @@
     },
     "com.unity.purchasing": {
       "version": "4.6.0",
-=======
-    "com.unity.purchasing": {
-      "version": "4.9.3",
->>>>>>> bobby
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -142,12 +125,8 @@
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0",
-<<<<<<< HEAD
         "com.unity.services.core": "1.5.2",
         "com.unity.services.analytics": "4.2.0"
-=======
-        "com.unity.services.core": "1.8.1"
->>>>>>> bobby
       },
       "url": "https://packages.unity.com"
     },
@@ -181,7 +160,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.33",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -211,7 +190,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.6",
+      "version": "1.6.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -232,7 +211,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.1",
+      "version": "1.8.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

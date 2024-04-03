@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:fpsgame/Assets/TerrainSampleAssets/ShaderGraphs/Subgraphs/AnimatedGrassPhase.shadersubgraph.meta
 guid: baa12ab73b962474eb9afea9483e1f0f
-========
-guid: f74b7aed2cfccd044bd4d0908bec180f
->>>>>>>> bobby:fpsGame/Library/PackageCache/com.unity.purchasing@4.9.3/Editor/ServiceProjectSettings/UI/UXML/AppleConfiguration.uxml.meta
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
