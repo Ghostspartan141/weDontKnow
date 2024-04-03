@@ -1,0 +1,5 @@
+sceneSetups:
+- path: E:/github/weDontKnow/fpsGame/Assets/bobby's stuff/testlevel.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

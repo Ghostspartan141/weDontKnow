@@ -29,13 +29,16 @@ public class UIHealth : MonoBehaviour
     //takes damage
     public void TakeDamage(float Damage)
     {
-        if(sheildpower>0)
+        if (sheildpower > 0)
         {
-            sheildpower-=Damage;
+            sheildpower -= Damage;
             sheildbar.fillAmount = sheildpower / 100f;
         }
-        healthAmount -= Damage;
-        healthBar.fillAmount = healthAmount / 100f;
+        else
+        {
+            healthAmount -= Damage;
+            healthBar.fillAmount = healthAmount / 100f;
+        }
     }
     // takes heal
     public void TakeHeal(float Heal)
@@ -62,7 +65,7 @@ public class UIHealth : MonoBehaviour
         }
         
         sheildbar.fillAmount = Mathf.Clamp(Heal, 0, 100);
-        sheildbar.fillAmount = healthAmount / 100f;
+        sheildbar.fillAmount = sheildpower / 100f;
         Destroy(sheildpickup);
     }
     // checks collison
@@ -70,11 +73,11 @@ public class UIHealth : MonoBehaviour
     {
         if(other.tag =="enemy")
         {
-            TakeDamage(15);
+            TakeDamage(1);
         }
         if (other.tag == "healthkit")
         {
-            TakeHeal(20);
+            TakeHeal(50);
         }
         if(other.tag=="sheildpickup")
         {

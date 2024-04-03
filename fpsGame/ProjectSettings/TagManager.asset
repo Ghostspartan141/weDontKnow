@@ -10,6 +10,8 @@ TagManager:
   - sheildpickup
   - healthkit
   - sword crate
+  - enemy
+  - patrolpoint
   layers:
   - Default
   - TransparentFX

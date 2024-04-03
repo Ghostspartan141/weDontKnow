@@ -11,12 +11,12 @@ namespace AI
         
         protected virtual void Start()
         {
-            INitStates(1);
+            
         }
        
         protected virtual void Update()
         {
-            INitStates(1);
+           
             StateChanger();
             if (_CurState == null)
             {
@@ -25,7 +25,7 @@ namespace AI
             ChangeState(_CurState.OnStateUpdate());
             
         }
-        protected void INitStates(int stateChanger)
+        protected void INitStates()
         {
             stateBase[] allStates = GetComponents<stateBase>();
             foreach (stateBase state in allStates)
@@ -35,20 +35,8 @@ namespace AI
                     _states.Add(state.GetState, state);
                     state.InitState(this);
                 }
-            }
-            if (stateChanger == 1)
-            {
-                ChangeState(State.Patrol);
-            }
-            else if (stateChanger == 2) 
-            {
+            }          
                 ChangeState(State.Idle);
-            }
-            else if(stateChanger == 3) 
-            {
-                ChangeState(State.Chase);
-            }
-          
         }
         protected void ChangeState(State newState)
         {
@@ -63,18 +51,7 @@ namespace AI
         }
         public void StateChanger()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha8))
-            {
-                INitStates(1);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha9))
-            {
-                INitStates(2);
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha0))
-            {
-                INitStates(3);
-            }
+                INitStates();
         }
     }
 }

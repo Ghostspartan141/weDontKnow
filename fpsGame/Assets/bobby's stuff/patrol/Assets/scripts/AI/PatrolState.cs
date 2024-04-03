@@ -14,6 +14,7 @@ public class PatrolState : stateBase
 
     public override State OnStateUpdate()
     {
+
         Vector3 direction = _patrolPoints[_patrolIndex].position - _myAgent.transform.position;
         direction.Normalize();
         _myAgent.transform.position += direction * _speed * Time.deltaTime;

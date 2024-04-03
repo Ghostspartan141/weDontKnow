@@ -62,6 +62,10 @@ public class shoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             typeArrow = 2;
+        }  
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            typeArrow = 3;
         }
     }
     public void shooting()
@@ -97,6 +101,19 @@ public class shoot : MonoBehaviour
                 --stunArrowAmount;
             }
             if (typeArrow == 2 && ElArrowAmount > 0)
+            {
+                _currentarrow = Instantiate(eletricArrow, transform);
+                _currentarrow.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 30f, ForceMode.Impulse);
+                _currentarrow.transform.parent = null;
+                Debug.Log("fire2");
+                if (transform.localPosition.x >= 15&&transform.localPosition.y>=15&&transform.localPosition.z>=15)
+                {
+                    Destroy(this.eletricArrow);
+                    Debug.Log("destory");
+                }
+                --ElArrowAmount;
+            } 
+            if (typeArrow == 3 && ElArrowAmount > 0)
             {
                 _currentarrow = Instantiate(eletricArrow, transform);
                 _currentarrow.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 30f, ForceMode.Impulse);
