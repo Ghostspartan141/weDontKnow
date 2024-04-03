@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - eplodecrate
+  - stuncrate
+  - eletriccrate
+  - sheildpickup
+  - healthkit
+  - sword crate
   layers:
   - Default
   - TransparentFX
