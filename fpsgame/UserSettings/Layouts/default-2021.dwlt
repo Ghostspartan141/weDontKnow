@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 102
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 136, y: 30}
+  m_MinSize: {x: 129, y: 28}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder
@@ -461,22 +461,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/lab materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 46
   m_LastFolders:
-  - Assets/lab materials
+  - Assets/Scenes
   m_LastFoldersGridSize: 46
   m_LastProjectPath: C:\Users\Owner\Desktop\weDontKnow\fpsgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 128}
-    m_SelectedIDs: aab10000
-    m_LastClickedID: 45482
-    m_ExpandedIDs: 00000000a0ac0000a8ac0000ceac0000d0ac0000d2ac000000ca9a3b
+    scrollPos: {x: 0, y: 144}
+    m_SelectedIDs: 0aad0000
+    m_LastClickedID: 44298
+    m_ExpandedIDs: 00000000e4ac000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,9 +634,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c0cdfcff
+      m_SelectedIDs: 12ad0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0eb5ffff26b6ffff56b00000
+      m_ExpandedIDs: f2b4ffff24b6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -941,9 +941,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 178.52164, y: 21.712616, z: 133.31932}
+    m_Target: {x: 201.86081, y: 23.197742, z: 149.20592}
     speed: 2
-    m_Value: {x: 178.52164, y: 21.712616, z: 133.31932}
+    m_Value: {x: 201.86081, y: 23.197742, z: 149.20592}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.10001, y: 0.10001}
@@ -982,7 +982,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.10001, y: 0.10001}
@@ -990,13 +990,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.021896444, y: -0.95984405, z: 0.2687497, w: -0.07827182}
+    m_Target: {x: -0.11267938, y: -0.8138399, z: 0.16837798, w: -0.5447526}
     speed: 2
-    m_Value: {x: -0.022298064, y: -0.95966184, z: 0.26869872, w: -0.07970621}
+    m_Value: {x: -0.112923995, y: -0.8129656, z: 0.16819713, w: -0.545935}
   m_Size:
-    m_Target: 6.066293
+    m_Target: 10.266881
     speed: 2
-    m_Value: 6.066293
+    m_Value: 10.266881
   m_Ortho:
     m_Target: 0
     speed: 2
