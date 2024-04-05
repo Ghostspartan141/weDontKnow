@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 129, y: 28}
+  m_MinSize: {x: 136, y: 30}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder
@@ -461,22 +461,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/lab materials
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 46
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/lab materials
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
   m_LastFoldersGridSize: 46
   m_LastProjectPath: C:\Users\Owner\Desktop\weDontKnow\fpsgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: e4ac0000
     m_LastClickedID: 44260
     m_ExpandedIDs: 00000000e4ac0000ecac000054b2000056b2000058b2000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 128}
+    m_SelectedIDs: aab10000
+    m_LastClickedID: 45482
+    m_ExpandedIDs: 00000000a0ac0000a8ac0000ceac0000d0ac0000d2ac000000ca9a3b
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,9 +649,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: dc8effff
       m_LastClickedID: -28964
       m_ExpandedIDs: 7e91ffffde98ffffea9cffff82a0ffff84a9ffffa2abffff9aaeffffd4afffffeeb4ffff24b6ffff72b1000004c80000
+=======
+      m_SelectedIDs: c0cdfcff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0eb5ffff26b6ffff56b00000
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -941,9 +962,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 457.49933, y: -0.8461356, z: 467.1336}
     speed: 2
     m_Value: {x: 457.49933, y: -0.8461356, z: 467.1336}
+=======
+    m_Target: {x: 178.52164, y: 21.712616, z: 133.31932}
+    speed: 2
+    m_Value: {x: 178.52164, y: 21.712616, z: 133.31932}
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -966,7 +993,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.10001, y: 0.10001}
@@ -982,7 +1009,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0.10001, y: 0.10001}
@@ -990,6 +1017,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.059205025, y: -0.91949904, z: 0.15163745, w: 0.35801363}
     speed: 2
     m_Value: {x: 0.05866364, y: -0.91965586, z: 0.1502466, w: 0.3580749}
@@ -997,6 +1025,15 @@ MonoBehaviour:
     m_Target: 9.087972
     speed: 2
     m_Value: 8.696624
+=======
+    m_Target: {x: -0.021896444, y: -0.95984405, z: 0.2687497, w: -0.07827182}
+    speed: 2
+    m_Value: {x: -0.022298064, y: -0.95966184, z: 0.26869872, w: -0.07970621}
+  m_Size:
+    m_Target: 6.066293
+    speed: 2
+    m_Value: 6.066293
+>>>>>>> parent of 76b54a55 (Merge pull request #11 from Ghostspartan141/cole's-branch)
   m_Ortho:
     m_Target: 0
     speed: 2
