@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class shoot : MonoBehaviour
 {
+    public GameObject monster;
     public GameObject EXcrate;
     public GameObject stuncrate;
     public GameObject eleccrate;
@@ -48,6 +49,7 @@ public class shoot : MonoBehaviour
             ElArrowAmount += 10;
             Destroy(eleccrate);
         }
+        
     }
     public void arrowChange()
     {

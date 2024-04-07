@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 914899035937732566}
   - component: {fileID: 8133429362870928972}
   - component: {fileID: -6801288252335797346}
+  - component: {fileID: 7162000246949979664}
   m_Layer: 0
   m_Name: arrow electric
   m_TagString: Untagged
@@ -114,3 +115,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7162000246949979664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8191137102352044785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5077305c6ab1a4788c3fd6ece75b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monster: {fileID: 772051206676234501, guid: cec2af24cfa928d43ac3a970e6e495e9, type: 3}
